@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">testviewWithUrl</string>
+    <string name="app_name_titlebar">开心网</string>
+    <string name="start_com">Copyright © 2007-2011 kaixin001.com</string>
+    <string name="start_right">All rights reserved. Ver 1.0.4</string>
+    <string name="start_dataerr">数据加载失败</string>
+    <string name="login_id">账号</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_auto">记住密码</string>
+    <string name="login_btn">登录</string>
+    <string name="login_proccessing">正在登录......</string>
+    <string name="login_checknetwork">正在检查网络...</string>
+    <string name="login_check_msg">使用开心网客户端你可以：\r\n1.查看好友动态\r\n2.浏览好友首页,查看好友的照片\r\n3.查看好友的转帖,参与投票\r\n4.更新状态,分享照片\r\n5.写记录、发表新日记\r\n6.及时的查看和回复各类开心消息\r\n7.方便快捷的访问各类组件</string>
+    <string name="login_check_login">立刻开始体验</string>
+    <string name="login_check_regist">注册开心网账号</string>
+    <string name="logout_proccessing">正在注销......</string>
+    <string name="logout_hint">确定注销登录吗？</string>
+    <string-array name="logout_options">
+	<item>退出程序</item>
+	<item>注销登录</item>
+	</string-array>
+    <string name="news_refresh_failed">获取数据失败</string>
+    <string name="network_err">网络通信错误</string>
+    <string name="dataparse_err">数据解析失败</string>
+    <string name="ok">确定</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="he">他</string>
+    <string name="she">她</string>
+    <string name="crash_error">程序错误，请重新运行</string>
+    <string name="no_network">开心网应用需要网络连接。请检查网络状态。</string>
+    <string name="unsupport_network">当前网络不支持</string>
+    <string name="login_id_empty">请输入你的开心网账号</string>
+    <string name="login_pwd_empty">请输入你的开心网密码</string>
+    <string name="desktop_item_news">好友动态</string>
+	<string name="desktop_item_message_center">消息中心</string>
+	<string name="desktop_item_talk">聊天</string>
+	<string name="desktop_item_friend">好友</string>
+	<string name="desktop_item_share_photo">分享照片</string>
+	<string name="desktop_item_write_record">写记录</string>
+	<string name="desktop_item_read_shared_post">看转帖</string>
+	<string name="desktop_exit_hint">再按一次返回键，可直接退出程序</string>
+	<string name="last_update_time">最后更新 </string>
+	<string name="news">动态</string>
+	<string name="news_all">全部</string>
+	<string name="news_important">重要</string>
+	<string name="news_photo">照片</string>
+	<string name="news_state">状态</string>
+	<string name="news_star">机构</string>
+	<string name="news_nonews">目前没有好友动态</string>
+	<string name="post_nonews">目前没有好友转帖</string>
+	<string name="news_nophoto">目前没有好友照片更新</string>
+	<string name="news_nostate">目前没有好友状态更新</string>
+	<string name="news_nostar">目前你还没有加任何机构或名人</string>
+	<string name="news_more">查看更多动态...</string>
+	<string name="news_refresh">加载新动态</string>
+	<string name="news_diary_pwd">此日记凭密码访问</string>
+	<string name="news_state_hint">你正在做什么？</string>
+	<string name="input_submit">提交</string>
+	<string name="input_release">发布</string>
+	<string name="input_publish">发表</string>
+	<string name="input_title_comment">评论</string>
+	<string name="input_title_record">写记录</string>
+	<string name="input_title_state">更新状态</string>
+	<string name="input_title_photo">输入照片标题</string>
+	<string name="input_title_repost_tag">输入新标签词</string>
+	<string name="input_submiting">正在提交...</string>
+	<string name="input_releasing">正在发布...</string>
+	<string name="input_publishing">正在发表...</string>
+	<string name="input_replying">正在回复...</string>
+	<string name="input_submit_failed">提交失败！</string>
+	<string name="input_feedback_failed">反馈提交失败</string>
+	<string name="input_release_failed">发布失败！</string>
+	<string name="input_reply_failed">回复失败！</string>
+	<string name="input_comment_failed">发表评论失败！</string>
+	<string name="input_repost_tag_failed">新标签词发表失败！</string>
+	<string name="input_submit_suc">提交成功</string>
+	<string name="input_feedback_suc">反馈提交成功</string>
+	<string name="input_release_suc">发布成功</string>
+	<string name="input_reply_suc">回复成功</string>
+	<string name="input_comment_suc">发表评论成功</string>
+	<string name="input_cancel_hint">你确定要取消吗？</string>
+	<string name="input_state_empty">状态信息不能为空！</string>
+	<string name="input_tag_min">至少输入5个字符</string>
+	<string name="input_record_empty">记录内容不能为空！</string>
+	<string name="input_reply_empty">回复内容不能为空！</string>
+	<string name="input_comment_empty">评论内容不能为空！</string>
+	<string name="input_repost_tag_empty">标签词不能为空！</string>
+	<string name="input_feedback_empty">反馈内容不能为空！</string>
+	<string name="input_repost_tag_max">标签词最多能输入6个汉字！</string>
+	<string name="input_comment_whisper">悄悄话</string>
+	<string name="friends_all">全部</string>
+	<string name="friends_online">在线</string>
+	<string name="friends_visitor">来访</string>
+	<string name="friends_star">机构</string>
+	<string name="friends_online_num">位好友在线</string>
+	<string name="friends_star_num">你加了*个机构和名人</string>
+	<string name="friends_input_find">输入拼音首字母查找</string>
+	<string name="friends_select_title">选择好友发送短消息</string>
+	<string name="objcomment_close">对方关闭了评论功能</string>
+	<string name="objcomment_title_like">赞</string>
+	<string name="objcomment_title_like_with">和</string>
+	<string name="objcomment_title_like_others">等</string>
+	<string name="objcomment_title_like_person">个人</string>
+	<string name="objcomment_title_like_state">觉得这个挺赞的</string>
+	<string name="objcomment_empty">目前没有评论或者都是悄悄话评论</string>
+	<string name="objcomment_error">下载评论失败</string>
+	<string name="objcomment_newtime">0秒前</string>
+	<string name="objcomment_nolike">还没人赞过</string>
+	<string name="objcomment_input_comment">输入评论...</string>
+    <string name="albumview_pwd">请输入密码</string>
+	<string name="albumview_pwd_verify">正在验证...</string>
+	<string name="albumview_pwd_verify_failed">验证失败</string>
+	<string name="photoview_getlist_failed">获取照片列表失败</string>
+	<string name="photoview_downloading">正在下载...</string>
+	<string name="photoview_download_failed">下载失败</string>
+	<string name="photoview_album">查看专辑</string>
+	<string name="photoview_title_pic_operation">请选择</string>
+	<string-array name="photoview_title_pic_operation_options">
+	<item>保存照片至手机</item>
+	<item>设置照片为手机桌面</item>
+	</string-array>
+	<string name="save_success">保存成功</string>
+	<string name="save_failed">保存失败</string>
+	<string name="set_wallpaper_success">设置成功</string>
+	<string name="set_wallpaper_failed">设置失败</string>
+	<string name="album_pictotal">张照片</string>
+    <string name="new_message_notice">新消息</string>
+    <string name="home_info">资料</string>
+    <string name="home_nonews">目前没有*的动态</string>
+    <string name="home_noalbum">*还没有创建照片专辑</string>
+    <string name="home_album_pictotal">有*张照片</string>
+    <string name="home_album_total">个专辑</string>
+    <string name="home_no_baseinfo">没有个人资料</string>
+    <string name="home_baseinfo">基本信息</string>
+    <string name="home_otherinfo">其他信息</string>
+    <string name="home_privacy_info">由于对方的隐私设置，你没有权限查看</string>
+    <string name="home_hide_info">的个人主页目前处于隐藏状态</string>
+    <string name="home_option_title">请选择</string>
+    <string-array name="home_sendmsg_options">
+	<item>给他发送开心短消息</item>
+	</string-array>
+	<string-array name="home_sendshemsg_options">
+	<item>给她发送开心短消息</item>
+	</string-array>
+	<string-array name="home_newfriend_options">
+	<item>加为好友</item>
+	<item>给他发送开心短消息</item>
+	</string-array>
+	<string-array name="home_newfriend_she_options">
+	<item>加为好友</item>
+	<item>给她发送开心短消息</item>
+	</string-array>
+	<string-array name="home_star_options">
+	<item>加为粉丝</item>
+	</string-array>
+	<string-array name="home_starsendshemsg_options">
+	<item>给她发送开心短消息</item>
+	<item>断开粉丝</item>
+	</string-array>
+	<string-array name="home_starsendmsg_options">
+	<item>给他发送开心短消息</item>
+	<item>断开粉丝</item>
+	</string-array>
+	<string name="home_newfriend_sending">正在发送好友请求...</string>
+	<string name="home_newfriend_sendfailed">好友请求发送失败</string>
+	<string name="home_verify_empty">好友请求附言不能为空</string>
+	<string name="home_delstar_suc">断开粉丝成功</string>
+	<string name="home_delstar_failed">断开粉丝失败</string>
+	<string name="continue_action">继续</string>
+    <string name="info_gender">性别</string>
+    <string name="info_birthday">出生日期</string>
+    <string name="info_constellation">星座</string>
+    <string name="info_hometown">家乡</string>
+    <string name="info_city">现居住地</string>
+    <string name="info_mobile">手机</string>
+    <string name="info_tel">宅电</string>
+    <string name="info_qq">QQ</string>
+    <string name="info_msn">MSN</string>
+    <string name="info_address">地址</string>
+    <string name="info_zip">邮编</string>
+    <string name="info_interest">兴趣爱好</string>
+    <string name="info_education">教育背景</string>
+    <string name="info_career">工作经历</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="face">表情</string>
+    <string name="private_shared_post_cannot_repaste">私藏内容不能转帖给好友！</string>
+    <string name="possession_shared_post_cannot_interactive">私藏内容不能参与互动！</string>
+	<string name="message_center_short_message">短消息</string>
+	<string name="message_center_system_message">系统消息</string>
+	<string name="message_center_comment">评论</string>
+	<string name="message_center_reply_comment">评论回复</string>
+	<string name="message_center_received_user_comment">留言</string>
+	<string name="message_center_sent_user_comment">留言回复</string>
+	<string name="message_center_new_message">条新</string>
+<string name="message_center">消息中心</string>
+<string name="broadcast_send">群发</string>
+<string name="requiring_data">正在获取数据...</string>
+<string name="require_data_fail">获取数据失败</string>
+<string name="total_message_count_des">共*条</string>
+<string name="unread_message_num_des">*条未阅</string>
+<string name="more_message">更多消息...</string>
+<string name="message_inbox">收件箱</string>
+<string name="message_sendbox">发件箱</string>
+<string name="private_message">[悄悄话]</string>
+<string name="to_my">对我的</string>
+<string name="to_friend">对*的</string>
+<string name="in_user_comment_board">在*的留言板上</string>
+<string name="more_system_message">更多系统消息...</string>
+<string name="more_comment">更多评论...</string>
+<string name="more_user_comment">更多留言</string>
+<string name="friend_request_accepted">你已同意对方的好友请求，并将对方加为你的好友</string>
+<string name="friend_request_ignored">你已忽略了对方的好友请求</string>
+<string name="reply">回复</string>
+<string name="today">今天</string>
+<string name="message_has_attachment">此消息含有*个附件:</string>
+<string name="me">我</string>
+<string name="my">自己</string>
+<string name="message_between_friends">之间的私密对话</string>
+<string name="and">和</string>
+<string name="people_num_ect">等*人</string>
+<string name="accept">接受</string>
+<string name="ignore">忽略</string>
+<string name="processing">正在处理...</string>
+<string name="process_fail">处理失败</string>
+<string name="message_center_comment_list">评论列表</string>
+<string name="message_center_reply_comment_list">评论回复列表</string>
+<string name="message_center_user_comment_list">我的留言板</string>
+<string name="message_center_sent_user_comment_list">留言回复列表</string>
+<string name="message_list_inbox_empty_notice">你的收件箱没有任何消息</string>
+<string name="message_list_sent_empty_notice">你的发件箱没有任何消息</string>
+<string name="system_message_list_empty_notice">目前没有系统消息</string>
+<string name="comment_list_empty_notice">还没有人评论过你发表的内容</string>
+<string name="reply_comment_list_empty_notice">你还没评论过别人发表的内容</string>
+<string name="user_comment_list_empty_notice">还没有人给你留过言</string>
+<string name="sent_user_comment_list_empty_notice">你还没给别人留过言 </string>
+<string name="post_message_receiver">收件人:</string>
+<string name="post_message_content">内容:</string>
+<string name="cancel">取消</string>
+<string name="send">发送</string>
+<string name="write_message">写短消息</string>
+<string name="message_sending">正在发送...</string>
+<string name="message_send_succeed">发送成功</string>
+<string name="message_send_fail">发送失败</string>
+<string name="post_message_no_receiver">请选择发送对象！</string>
+<string name="post_message_no_content">短消息内容不能为空！</string>
+<string name="diary_of">的日记</string>
+<string name="back">返回</string>
+<string name="repost_to_friend">转帖给好友</string>
+<string name="downloading">正在载入...</string>
+<string name="repost_list_of">转帖给大家</string>
+<string name="repost_of">的转帖</string>
+<string name="repost_succeed">转帖成功!你的好友会通过好友动态看到此贴.</string>
+<string name="repost_fail">转帖失败，请重试!</string>
+<string name="repost_opinion_fail">发表互动观点失败,您是否已经发表过互动观点了!</string>
+<string name="reposting">正在发送转帖请求...</string>
+<string name="repost_vote_friend_opinion">其中好友的观点为</string>
+<string name="repost_vote_total_num_des">共有*人发表观点</string>
+<string name="repost_vote">转帖互动</string>
+<string name="complete">完成</string>
+<string name="opinion_of">的观点</string>
+<string name="repost_vote_succeed">发表互动观点成功! 同时已将此内容转帖给你的好友</string>
+<string name="sending_request">正在发送请求...</string>
+<string name="initiator">发起人:</string>
+<string name="initiate_time">发起时间:</string>
+<string name="end_time">截止时间:</string>
+<string name="vote_num">已投票数:</string>
+<string name="vote">投票</string>
+<string name="vote_closed">该投票已截止</string>
+<string name="vote_info_of_friends">好友的投票情况</string>
+<string name="view_vote_summary">查看投票总结</string>
+<string name="vote_intro">投票详细说明</string>
+<string name="vote_to">投票给</string>
+
+<string name="vote_summary">投票总结</string>
+<string name="vote_succeed">投票成功</string>
+<string name="receiver_num_limit_warning">最多只能选择*位好友!</string>
+<string name="upload_photo_to_kaixin">上传照片至开心网</string>
+<string-array name="upload_photo_options">
+<item>拍照上传</item>
+<item>上传手机中的照片</item>
+</string-array>
+<string name="upload">上传</string>
+<string name="input_photo_title_notice">输入照片标题</string>
+<string name="photo_uploading">照片上传中...</string>
+<string name="upload_photo_succeed">照片上传成功!</string>
+<string name="upload_photo_fail">照片上传失败!</string>
+<string name="continue_take_photo">继续拍照</string>
+<string name="continue_select_photo_from_gallery">继续选照片</string>
+<string name="photo_no_title">无标题</string>
+<string name="loading_photo">正在载入照片...</string>
+<string name="more">更多</string>
+<string name="app_component">组件</string>
+<string name="others">其他</string>
+<string name="loading_more_repost">正在载入更多转帖...</string>
+<string name="private_message_reply">悄悄话回复</string>
+<string name="vote_num_limit_warning">本投票最多只能选择*个选项!</string>
+<string name="repost_repeat_notice">该内容你曾转过帖，是否再次转帖?</string>
+<string name="other_reposts_of">的其他转帖</string>
+<string name="exit_app_query">确定注销并退出程序?</string>
+<string name="online">在线</string>
+<string name="new_msg_notice_content">你有*条新消息</string>
+<string name="desktop_item_write_diary">写日记</string>
+<string name="write_new_diary">写新日记</string>
+<string name="write_diary_title">标题:</string>
+<string name="write_diary_content">内容:</string>
+<string name="picture">照片</string>
+<string name="position">位置</string>
+<string name="location_service_disabled_notice">定位服务已被禁用,是否需要启用?</string>
+<string name="i_am_here">我在这里:</string>
+<string-array name="insert_photo_options">
+<item>相机拍摄</item>
+<item>选择手机中的照片</item>
+</string-array>
+<string name="insert_picture">插入照片</string>
+<string name="insert_picture_num_limit_notice">最多只能插入*张照片！</string>
+<string name="diary_title_empty_warning">日记标题不能为空！</string>
+<string name="diary_content_empty_warning">日记内容不能为空！</string>
+<string name="posting_diary_content">正在发送日记内容...</string>
+<string name="posting_diary_picture">正在发送日记照片...</string>
+<string name="post_diary_fail">日记发表失败!</string>
+<string name="post_diary_succeed">日记发表成功！</string>
+<string name="post_diary_succeed_picture_lost">日记已发表成功，由于网络原因，部分照片未能成功上传！</string>
+<string name="post_diary_fail_too_frequently">日记发表频率过快!</string>
+<string name="menu_settings">设置</string>
+<string name="setting_new_msg_notification">新消息通知</string>
+<string name="setting_active">开启</string>
+<string name="setting_inactive">关闭</string>
+<string name="setting_category_new_msg_notification">新消息通知设置</string>
+<string name="setting_notification_vibrate">振动</string>
+<string name="setting_notification_vibrate_summary">收到新消息通知时振动</string>
+<string name="menu_refresh">刷新</string>
+<string name="menu_write_message">写新消息</string>
+<string name="menu_clear_account">清除账号</string>
+<string name="menu_register">注册</string>
+<string name="menu_home">主菜单</string>
+<string name="menu_home_me">我的首页</string>
+<string name="menu_exit">退出程序</string>
+<string name="menu_logout_exit">注销登录</string>
+<string name="menu_to_top">回到顶部</string>
+<string name="menu_send_msg">发送短消息</string>
+<string name="menu_add_friend">加为好友</string>
+<string name="menu_add_fans">加为粉丝</string>
+<string name="menu_del_fans">断开粉丝</string>
+<string name="setting_notification_led">手机LED灯</string>
+<string name="setting_notification_led_summary">收到新消息通知时闪烁手机LED灯</string>
+<string name="setting_notification_rington">铃声</string>
+<string name="setting_notification_rington_summary">设置收到新消息通知时的铃声</string>
+<string name="desktop_item_home_me">我的首页</string>
+<string name="save_diary_draft_title">退出正在编辑的日记</string>
+<string-array name="save_diray_draft_options">
+<item>保存为日记草稿</item>
+<item>不保存</item>
+</string-array>
+<string name="offline">离线</string>
+<string name="input_new_tag">输入其它标签词...</string>
+<string name="setting_no_notification_evening">夜间防打扰</string>
+<string name="setting_no_notification_evening_summary">在00:00-07:00关闭新消息通知功能</string>
+<string name="setting_notification_refresh_interval">自动检查是否有新消息</string>
+<string-array name="setting_notification_refresh_interval_options"><item>1分钟</item>
+<item>10分钟</item>
+<item>30分钟</item>
+<item>1小时</item>
+<item>2小时</item>
+<item>4小时</item>
+</string-array>
+<string-array name="setting_widget_refresh_interval_options"><item>半小时</item>
+<item>1小时</item>
+<item>2小时</item>
+<item>4小时</item>
+</string-array>
+<string name="remove">移除</string>
+<string name="remove_photo">移除照片</string>
+<string name="building_list_dialog_title">选择当前位置</string>
+<string name="add_location">添加当前位置</string>
+<string name="select_location">选择当前位置</string>
+<string name="finding_location">正在获取位置...</string>
+<string name="cannot_find_location">无法获取当前位置</string>
+<string name="widget_not_login_notice">你还没有登录开心网</string>
+<string name="menu_contact">联系人同步</string>
+<string name="contacts_selectall">全部选择</string>
+<string name="contacts_cancleall">全部取消</string>
+<string name="no_memory_to_view_photo">内存不足，无法预览图片</string>
+<string name="app">组件</string>
+<string name="get_applist_failed">获取组件列表失败</string>
+<string name="truth_name_of">的真心话</string>
+<string name="exchange_truth_options_title">请选择</string>
+<string-array name="exchange_truth_options">
+	<item>和所有好友交换真心话</item>
+	<item>和*交换真心话</item>
+</string-array>
+<string name="input_title_truth">真心话</string>
+<string name="input_truth_min">真心话回答至少两个字</string>
+<string name="submit_truth_failed">真心话回答发表失败</string>
+<string name="say_truth">说出真心话</string>
+<string name="my_home">我的首页</string>
+<string name="my_album_list">我的照片</string>
+<string name="my_diary_list">我的日记</string>
+<string name="my_record_list">我的记录</string>
+<string name="my_repost_list">我的转帖</string>
+<string name="of_albumlist">的照片</string>
+<string name="get_albumlist_failed">获取专辑列表失败</string>
+<string name="get_record_list_failed">获取记录列表失败</string>
+<string name="update">更新</string>
+<string name="of_diary_list">的日记</string>
+<string name="diary_list_empty">*还没有写过日记</string>
+<string name="look_more">查看更多...</string>
+<string name="get_diary_list_failed">获取日记列表失败</string>
+<string name="of_record_list">的记录</string>
+<string name="record_list_empty">*还没有写过记录</string>
+<string name="comment_num">条评论</string>
+<string name="up_num">人赞</string>
+<string name="record_word">记录道</string>
+<string name="of_repost_list">的转帖</string>
+<string name="repost_list_empty">*还没有转过帖</string>
+<string name="get_repost_list_failed">获取转帖列表失败</string>
+<string name="home_applist_photo">照片 (*)</string>
+<string name="home_applist_diary">日记 (*)</string>
+<string name="home_applist_record">记录 (*)</string>
+<string name="home_applist_repost">转帖 (*)</string>
+<string name="of_user_info">的资料</string>
+<string name="user_info_base">基本信息</string>
+<string name="user_info_other">其他信息</string>
+<string name="user_info_failed">获取个人信息列表失败</string>
+<string name="current_state">你正在做什么？</string>
+<string name="setting_widget_refresh_interval">刷新间隔</string>
+<string name="diary_psw_alert">暂不支持访问加密日记！</string>
+<string name="diary_only_friend_alert">该日记仅好友可见！</string>
+<string name="setting_category_widget">桌面小部件(widget)设置</string>
+<string name="setting_check_widget_refresh_interval">桌面动态自动刷新</string>
+<string name="my_all_repost">全部转帖</string>
+<string name="my_privacy_repost">我私藏的</string>
+<string name="my_privacy_repost_empty">你还没有私藏过什么内容</string>
+<string name="others_feedback">用户反馈</string>
+<string name="others_setting">设置</string>
+<string name="widget_input_release">发布</string>
+<string name="others_contact">导入好友至手机通讯录</string>
+<string name="contacts_title">选择你要关联的好友</string>
+<string name="contacts_start_relate">开始关联</string>
+<string name="contacts_prepare_title_bar">关联好友至手机联系人</string>
+<string name="contacts_init_proccessing">正在下载好友信息</string>
+<string name="contacts_mid_proccessing">正在检测手机联系人</string>
+<string name="contacts_prepare_text">将你的开心网好友与Android手机上的联系人相互关联，并把他们在开心网上的头像及其他信息添加至你的手机通讯录中。</string>
+<string name="contacts_relate_failed">关联失败</string>
+<string name="home_data_failed">获取首页数据失败</string>
+
+<string name="others_addFriend">找人</string>
+<string name="add_friend_id">请输入对方账号：</string>
+<string name="add_friend_search">查找</string>
+<string name="add_friend_progress">正在查找...</string>
+<string name="photo_upload_album_prompt">上传至</string>
+<string name="photo_upload_album">专辑</string>
+<string name="phone_ablum">手机相册</string>
+<string name="building_album_list_dialog_title">选择专辑</string>
+<string name="add_friend_id_empty">请输入对方在开心网注册的帐号</string>
+<string name="getimage_failed">获取图片失败</string>
+<string name="setting_notification_message_logout">保持通知</string>
+<string name="setting_notification_message_logout_open_summary">程序退出后仍然保持新消息通知</string>
+<string name="setting_notification_message_logout_close_summary">程序退出后关闭新消息通知</string>
+<string name="share">分享</string>
+<string name="share_to_kaixin001">分享到开心网</string>
+<string name="contacts_connect_only_dialog">你选择的联系人已经被关联至另一位好友，请先取消与此联系人关联的好友</string>
+<string name="contacts_proccessing">正在关联...</string>
+<string name="contacts_import_finish_msg">已成功关联*位好友至你的手机联系人。#位好友未添加</string>
+<string name="contacts_importall_finish_msg">已成功关联*位好友至你的手机联系人。</string>
+<string name="contacts_bottom_link_tab">已找到可关联的好友</string>
+<string name="contacts_bottom_unlink_tab">未找到可关联的好友</string>
+<string name="contacts_list_link_empty">未关联任何联系人</string>
+<string name="contacts_list_unlink_empty">没有未关联联系人</string>
+<string name="contacts_import_finish">关联完成</string>
+<string-array name="contacts_options">
+	<item>手动选择要关联的联系人</item>
+	<item>新增为手机联系人</item>
+</string-array>
+<string name="warning_title">免责声明</string>
+<string name="login_warning_msg">您将要开始的应用是由北京开心人信息技术有限公司开发、拥有、运营的联网应用。摩托罗拉不承担该应用任何方面的任何责任，包括但不限于其性能、知识产权、支持、服务、内容及收费。该应用在使用过程中可能产生数据流量，该费用请参看移动运营商公布的收费标准。本服务的联网查询目前只面向已开通移动互联网服务的用户。</string>
+<string name="agree">同意</string>
+<string name="exit">退出</string>
+<string name="search_result_not_find">该用户不存在，或其隐私设置为“不允许被搜索”</string>
+<string name="search_result_too_frequent">搜索次数过多</string>
+<string name="search_result_privacy_limit">该用户不存在，或其隐私设置为“不允许被搜索”</string>
+<string name="search_result_fail">搜索失败</string>
+<string name="no_album_currently">你还没有照片专辑！将创建&quot;手机相册&quot;并将照片上传到此专辑</string>
+<string name="file_not_found_error_msg">加载文件失败：文件不存在</string>
+<string name="password_changed">你的登录验证信息已过期，为了保障账号密码安全，请重新登录客户端</string>
+<string name="friend_shared_post">好友转帖</string>
+<string name="hot_today">热门转帖</string>
+<string name="has_uped">你已经赞过了!</string>
+<string name="up_success">赞成功!</string>
+<string name="publish">发布</string>
+<string name="share_not_support">暂不支持此文件类型！</string>
+<string name="attachment_not_support">暂不支持查看消息附件！</string>
+<string name="vote_failed">投票失败！</string>
+<string-array name="msg_copyto_clipboard">
+<item>复制到剪切板</item>
+</string-array>
+<string name="menu_forward">转发该消息</string>
+<string name="searchfriends_nores">无搜索结果</string>
+</resources>

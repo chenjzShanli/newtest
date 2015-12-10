@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="setting_notification_refresh_interval_option_values">
+<item>60000</item>
+<item>600000</item>
+<item>1800000</item>
+<item>3600000</item>
+<item>7200000</item>
+<item>14400000</item>
+</string-array>
+<string-array name="setting_widget_refresh_interval_option_values">
+<item>1800000</item>
+<item>3600000</item>
+<item>7200000</item>
+<item>14400000</item>
+</string-array>
+</resources>
+
